@@ -13,7 +13,7 @@ def chat():
 
     try:
         response = openai.Completion.create(
-            engine="davinci-codex",
+            engine="gpt-3.5-turbo",
             prompt=user_message,
             max_tokens=150,
             n=1,
